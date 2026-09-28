@@ -1,0 +1,18 @@
+{
+  "name": "checkout-engine-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Checkout automation engine: mode library, parallel trigger, per-phase latency measurement, success only on confirmed orders. Ships with a local test shop.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node src/index.js run",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  },
+  "license": "MIT"
+}
