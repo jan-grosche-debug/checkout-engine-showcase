@@ -1,5 +1,7 @@
 # Checkout Engine Showcase
 
+[![tests](https://github.com/jan-grosche-debug/checkout-engine-showcase/actions/workflows/test.yml/badge.svg)](https://github.com/jan-grosche-debug/checkout-engine-showcase/actions/workflows/test.yml)
+
 The core of a checkout automation engine for limited retail drops, built from scratch in Node.js with Playwright. This public version includes the full engine, a **local test shop**, and a test suite with 49 tests, including browser end-to-end tests.
 
 > **Scope of this repository:** It contains the engine only. Adapters for real online shops, live recording tools and proxy lists are private and not included. You can run the complete flow against the bundled test shop.
