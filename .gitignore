@@ -1,3 +1,3 @@
 # Private data: database (profiles), config with webhook, proxy lists, recordings
-data/
+/data/
 node_modules/
